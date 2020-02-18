@@ -25,7 +25,7 @@ If you've entered an incorrect number, then the board is unsolvable as it stands
 
 ## How does the backtracking algorithm work?
 
-Sudoku solving is NP-complete, meaning that unless we figure out how to solve another NP-hard problem in polynomial time then solving sudoku will remain nonpolynomial. Fortunately for us, a solution can be verified in polynomial time which comes in handy later.
+Sudoku solving is NP-complete, meaning that unless we figure out how to solve another NP-hard problem in polynomial time then solving sudoku will remain nonpolynomial. 
 
 The backtracking algorithm works by finding an unfilled square, trying a valid random number between 1 and 9 in the square, and recursively calling itself. If the recursive path cannot find a valid solution for a particular recursive path, the path returns and a different number is tried.
 
