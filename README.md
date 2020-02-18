@@ -21,7 +21,7 @@ It means that the input is incorrect for one of two reasons:
 
 ## Why can't I press the solve button when I've entered an incorrect number?
 
-If you've entered an incorrect number, then the board is insolvable. If it were to solve with an invalid input, it would result in an invalid solution.
+If you've entered an incorrect number, then the board is unsolvable as it stands. If it were to solve with an invalid input, it would result in an invalid solution.
 
 ## How does the backtracking algorithm work?
 
