@@ -3,7 +3,7 @@
 ## How can I play?
 
 Follow this link!
-https://master.dwvfxaw2062yh.amplifyapp.com/
+http://bucketofjustin.s3-website-us-west-2.amazonaws.com/
 
 ## How was this built?
 
