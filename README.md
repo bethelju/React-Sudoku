@@ -10,9 +10,9 @@ http://bucketofjustin.s3-website-us-west-2.amazonaws.com/
 I built this using React.js to acquire some practice using the framework and the sudoku backtracking algorithm! The backtracking algorithm is a recursive algorithm that attempts to place numbers in empty squares and reverses itself (backtrack) if the given number set doesn't meet the sudoku constraints. This algorithm works nicely for 9x9 boards. 
 
 These constaints are:
-..* No number can appear in the same row twice
-..* No number can appear in the same column twice
-..* No number can appear in the same subgrid twice
+  * No number can appear in the same row twice
+  * No number can appear in the same column twice
+  * No number can appear in the same subgrid twice
 
 ## How is the board generated?
 
