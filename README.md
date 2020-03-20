@@ -9,7 +9,7 @@ http://bucketofjustin.s3-website-us-west-2.amazonaws.com/
 
 I built this using React.js to acquire some practice using the framework and the sudoku backtracking algorithm! The backtracking algorithm is a recursive algorithm that attempts to place numbers in empty squares and reverses itself (backtrack) if the given number set doesn't meet the sudoku constraints. This algorithm works nicely for 9x9 boards. 
 
-These constaints are:
+These constraints are:
   * No number can appear in the same row twice
   * No number can appear in the same column twice
   * No number can appear in the same subgrid twice
@@ -21,8 +21,8 @@ I used a backtracking algorithm to generate a valid board, then removed elements
 ## What does it mean when a space turns red after I've input a number?
 
 It means that the input is incorrect for one of two reasons:
-1) The input matches that of another in the same column, row, or square
-2) The input makes the rest of the board unsolvable (as calculated by backtracking)
+1. The input matches that of another in the same column, row, or square
+2. The input makes the rest of the board unsolvable (as calculated by backtracking)
 
 The board solve attempt is run whenever a number is input into a square to see if a possible solution exists with that number. 
 
