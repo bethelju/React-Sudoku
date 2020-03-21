@@ -6,6 +6,48 @@ body {
   ol, ul {
     padding-left: 30px;
   }
+
+  button{
+    background-color: rgb(0, 0, 0); /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Neucha', cursive;
+  }
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
   
   /*.board-row:after {
     clear: both;
@@ -35,22 +77,57 @@ table {
 }
 
 .square {
-  background: #fff;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
+  height: 40px;
+  margin: -2px;
   text-align: center;
-  width: 34px;
+  width: 40px;
+}
+
+.square-white {
+  background: white
+}
+
+.square-grey {
+  background: rgb(224, 224, 224);
+}
+
+.square-red {
+  background: rgb(221, 50, 50);
+}
+
+input:disabled{
+  color: black
+}
+
+td{
+  padding: 0px;
+}
+
+input {
+  padding: 0px;
+}
+
+button:disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.prefilled{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -webkit-touch-callout : none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
   
 .square:hover {
-  background: rgb(219, 215, 215);
+  background: rgb(255, 251, 0);
 }
 
   tr{
