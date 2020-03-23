@@ -96,9 +96,11 @@ class Board extends Component{
     let step = this.state.stepNumber
     //If this is not our first step, decrement the step number and the number of filled steps
     if(step > 0){
+      this.state.history.pop()
       this.setState({
         stepNumber: (step - 1),
-        filledSquares: this.state.filledSquares - 1
+        filledSquares: this.state.filledSquares - 1,
+        history: this.state.history
       });  
     }  
   }
@@ -108,7 +110,8 @@ class Board extends Component{
     const history = this.state.history;
     const current = history[this.state.stepNumber];
     return (
-      <div>
+      <div align="center">
+          <h1>Sudoku by Justin Bethel</h1>
           <Column squares={current.squares.slice(0, 27)} 
             handleChange={this.handleChange.bind(this)}/>
           <Column squares={current.squares.slice(27, 54)}
@@ -315,7 +318,7 @@ class Board extends Component{
   removeSquares(squares){
     for (let i = 0; i < 81; i++){
       let random = (Math.floor(Math.random() * 81))
-      if(random > 31){
+      if(random > 33){
         squares[i].value = null;
         squares[i].prefilled = false
         this.filledSquares -= 1
