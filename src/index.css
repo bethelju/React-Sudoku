@@ -1,6 +1,9 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background: url(https://images.pexels.com/photos/1095624/pexels-photo-1095624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    overflow: hidden;
   }
   
   ol, ul {
@@ -35,7 +38,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
   }
-  
+
   .closebtn:hover {
     color: black;
   }
