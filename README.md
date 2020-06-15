@@ -1,7 +1,6 @@
 # React-Sudoku
 ![Demo](https://media.giphy.com/media/f9Az3zGVmn8VXC14QB/giphy.gif)
 ## How can I play?
-<iframe src="https://giphy.com/embed/f9Az3zGVmn8VXC14QB" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/f9Az3zGVmn8VXC14QB">via GIPHY</a></p>
 Follow this link!
 http://bucketofjustin.s3-website-us-west-2.amazonaws.com/
 
