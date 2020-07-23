@@ -6,7 +6,7 @@ http://bucketofjustin.s3-website-us-west-2.amazonaws.com/
 
 ## How was this built?
 
-I built this using React.js to acquire some practice using the framework and the sudoku backtracking algorithm! The backtracking algorithm is a recursive algorithm that attempts to place numbers in empty squares and reverses itself (backtrack) if the given number set doesn't meet the sudoku constraints. This algorithm works nicely for 9x9 boards. 
+I built this using React.js to acquire some practice using the framework and backtracking algorithms! The backtracking algorithm is a recursive algorithm that attempts to place numbers in empty squares and reverses itself (backtrack) if the given number set doesn't meet the sudoku constraints. This algorithm works nicely for 9x9 boards. 
 
 These constraints are:
   * No number can appear in the same row twice
